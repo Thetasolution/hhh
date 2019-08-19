@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.studentinformationsystem">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".BottomNavigation"
+                android:label="bottom_navigation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".NavigationKotlin"
+                android:label="@string/navigation_kotlin"
+                android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".NewPressBackActivity">
+        </activity>
+        <activity android:name=".MainPressBackActivity">
+        </activity>
+        <activity android:name=".AlertDialogMsg">
+        </activity>
+        <activity
+                android:name=".ImplicitEmialShareData"
+                android:label="@string/implicit_intent_share_data">
+        </activity>
+        <activity
+                android:name=".WelcomeScreen"
+                android:label="@string/welcome_screen">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/login_form">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#B388FF"
+        android:padding="10dp">
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/dialogNameEt"
+              android:inputType="textPersonName"
+              android:hint="Enter Name"
+              android:textSize="30dp"
+    />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/dialogEmailEt"
+              android:inputType="textEmailAddress"
+              android:hint="Enter Email"
+              android:textSize="30dp"
+    />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/dialogPasswordEt"
+              android:inputType="textPassword"
+              android:hint="Enter Password"
+              android:textSize="30dp"
+    />
+
+
+
+
+        <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dialogLoginBtn"
+                android:text="Login"
+                android:textSize="30dp"
+                android:background="#80D8FF"
+        />
+
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dialogCancelBtn"
+            android:text="Cancel"
+            android:textSize="30dp"
+            android:background="#FF80AB"
+
+    />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
