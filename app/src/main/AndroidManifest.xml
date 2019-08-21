@@ -9,9 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity
-                android:name=".BottomNavigation"
-                android:label="bottom_navigation">
+        <activity android:name=".RecyclerViewSimple"
+                  android:label="Recycle_view">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -19,10 +18,14 @@
             </intent-filter>
         </activity>
         <activity
+                android:name=".BottomNavigation"
+                android:label="bottom_navigation">
+
+        </activity>
+        <activity
                 android:name=".NavigationKotlin"
                 android:label="@string/navigation_kotlin"
                 android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
         <activity android:name=".NewPressBackActivity">
         </activity>
